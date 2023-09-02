@@ -20,3 +20,16 @@ MaterialApp : 가장 기본이 되는 위젯 트리에서 최상위에 위치하
 Scaffold : MaterialApp에서 화면을 구성할 때 가장 기본이 되는 도화지  
 SafeArea : 자식 위젯에 패딩을 넣어 디바이스 영역이 앱의 위젯 영역을 침범하는 것을 방지  
 stless - StatelessWidget
+
+### 2023.09.02
+Container : 화면 내 박스 상자
+- width
+- height
+- colors
+- padding
+- margin
+- decoration
+  - color
+  - border
+  - borderRadius
+  - boxShadow

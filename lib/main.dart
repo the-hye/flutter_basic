@@ -4,39 +4,39 @@ void main() {
   runApp(MaterialApp(
     home: Scaffold(
       appBar: AppBar(
-        actions: [
-          IconButton(icon: Icon(Icons.home), onPressed: () {
-            print('Tab!');
-          },),
-          Icon(Icons.play_arrow),
-        ],
-        centerTitle: false,
-        title: Text('This is App bar'),
+        title: Text('Study to Container'),
       ),
-      body: TestWidget(),
-      floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.bug_report),
-        onPressed: () {
-          print('Tab! FAB!');
-        },
-      ),
+      body: CustomContainer(),
     ),
   ));
 }
 
-class TestWidget extends StatelessWidget {
-  const TestWidget({super.key});
+class CustomContainer extends StatelessWidget {
+  const CustomContainer({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Center(
-        child: Text(
-          'Hello Flutter!',
-          style: TextStyle(
-            fontSize: 50,
-            color: Colors.black,),
+    return Center(
+      child: Container(
+        width: 300,
+        height: 300,
+        //color: Colors.amberAccent.shade100,
+        padding: EdgeInsets.fromLTRB(10, 12, 10, 12),
+        // margin: EdgeInsets.symmetric(vertical: 24, horizontal: 30),
+        // BoxDecoration이 있는 경우 color가 밖에 없어야 함
+        decoration: BoxDecoration(
+          color: Colors.amberAccent.shade100,
+          border: Border.all(color: Colors.red, width: 5, style: BorderStyle.solid),
+          borderRadius: BorderRadius.circular(20),
+          boxShadow: [
+            BoxShadow(color: Colors.black, offset: Offset(6, 6), blurRadius: 10, spreadRadius: 10),
+            BoxShadow(color: Colors.blue.shade100, offset: Offset(-6, -6), blurRadius: 10, spreadRadius: 10),
+          ]
         ),
+        child: Center(
+            child: Container(
+              color: Colors.greenAccent,
+              child: Text('Hello Container'))),
       ),
     );
   }
