@@ -15,8 +15,8 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-## 2023.08.29
-MaterialApp : 가장 기본이 되는 위젯 트리에서 최상위에 위치하는 앱
-Scaffold : MaterialApp에서 화면을 구성할 때 가장 기본이 되는 도화지
-SafeArea : 자식 위젯에 패딩을 넣어 디바이스 영역이 앱의 위젯 영역을 침범하는 것을 방지
+### 2023.08.29
+MaterialApp : 가장 기본이 되는 위젯 트리에서 최상위에 위치하는 앱  
+Scaffold : MaterialApp에서 화면을 구성할 때 가장 기본이 되는 도화지  
+SafeArea : 자식 위젯에 패딩을 넣어 디바이스 영역이 앱의 위젯 영역을 침범하는 것을 방지  
 stless - StatelessWidget
