@@ -33,3 +33,8 @@ Container : 화면 내 박스 상자
   - border
   - borderRadius
   - boxShadow
+
+### 2023.09.04  
+Column : Widget을 상하로 배치  
+Row : Widget을 좌우로 배치  
+SingleChildScrollView : 화면에 넘칠 경우 스크롤이 가능하도록 함  
