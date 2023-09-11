@@ -38,3 +38,10 @@ Container : 화면 내 박스 상자
 Column : Widget을 상하로 배치  
 Row : Widget을 좌우로 배치  
 SingleChildScrollView : 화면에 넘칠 경우 스크롤이 가능하도록 함  
+
+### 2023.09.11  
+Widget을 비율로 배치하기  
+Expaned  
+- 내부 객체의 높낮이에 상관없이 Flex로 선언된 모든 영역을 차지하는 위젯
+Flexible  
+- Flexible은 객체의 사이즈에 따라 줄어들 수 있는 여지가 있다.
