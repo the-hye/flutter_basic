@@ -42,6 +42,15 @@ SingleChildScrollView : 화면에 넘칠 경우 스크롤이 가능하도록 함
 ### 2023.09.11  
 Widget을 비율로 배치하기  
 Expaned  
-- 내부 객체의 높낮이에 상관없이 Flex로 선언된 모든 영역을 차지하는 위젯
+- 내부 객체의 높낮이에 상관없이 Flex로 선언된 모든 영역을 차지하는 위젯  
 Flexible  
-- Flexible은 객체의 사이즈에 따라 줄어들 수 있는 여지가 있다.
+- Flexible은 객체의 사이즈에 따라 줄어들 수 있는 여지가 있다.  
+  
+Widget을 겹겹히 쌓아 올리기  
+Align
+- alignment라는 옵션을 가지게 되며 선언된 값으로 정해진 위치로 배치할 수 있으며 (x,y)로 배치할 수도 있다.
+- Alignmet의 경우 정해진 공간이 아닌 화면 전체의 공간을 기준으로 컨테이너를 배치할 수 있다.
+  
+Positioned  
+- Stack 내부에서 정확한 상하좌우 크기를 가지고 위치를 배치할 수 있다
+- top, botton, left, right를 사용하여 배치 가능  
