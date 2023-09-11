@@ -42,7 +42,8 @@ SingleChildScrollView : 화면에 넘칠 경우 스크롤이 가능하도록 함
 ### 2023.09.11  
 Widget을 비율로 배치하기  
 Expaned  
-- 내부 객체의 높낮이에 상관없이 Flex로 선언된 모든 영역을 차지하는 위젯  
+- 내부 객체의 높낮이에 상관없이 Flex로 선언된 모든 영역을 차지하는 위젯 
+  
 Flexible  
 - Flexible은 객체의 사이즈에 따라 줄어들 수 있는 여지가 있다.  
   
@@ -54,3 +55,9 @@ Align
 Positioned  
 - Stack 내부에서 정확한 상하좌우 크기를 가지고 위치를 배치할 수 있다
 - top, botton, left, right를 사용하여 배치 가능  
+  
+Stateless vs Stateful
+- Stateless : 위젯의 상태가 고정적
+- Stateful : 위젯의 상태변화를 표현 가능
+  - initState : 위젯이 생성될 때 호출
+  - dispose : 위젯이 완전히 종료될 때 호출
