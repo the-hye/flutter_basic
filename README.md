@@ -61,3 +61,15 @@ Stateless vs Stateful
 - Stateful : 위젯의 상태변화를 표현 가능
   - initState : 위젯이 생성될 때 호출
   - dispose : 위젯이 완전히 종료될 때 호출
+
+### 2023.09.30  
+Gesture(_01)  
+- CheckBox  
+- RadioButton : ListTile을 통해 터치 범위 확장 가능  
+- Slider
+- Switch
+- PopupMenuButton
+  
+Callback(_02)  
+- VoidCallback : 반환값이 없는 callback을 넘겨줄 때 사용  
+- Function : int, double 등 매개변수가 있을 때 사용  
